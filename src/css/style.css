@@ -5,7 +5,8 @@ button{
     border: none;
     border-radius: 5px;
     font-family: monospace;
-    color: white;
+    color: black;
+    font-size: 14px;
 }
 body{
     position: relative;
