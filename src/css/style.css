@@ -10,29 +10,37 @@ button{
 }
 body{
     position: relative;
+    transition: all 2.5s;
     
 }
-div{
+#div{
     content: "";
     width: 500px;
    position: absolute;
    top: -400px;
-   left: 350px;
-   display: flex;
+   left: 435px;
    flex-direction: column;
    padding: 23px;
    border-radius: 10px;
+   display: flex;
    justify-content: center;
    align-items: center;
-   background-color: rgb(0, 0, 0);
+   background-color: rgb(255, 255, 255);
    transition: all 2s;
    margin: 50px;
-   color: white;
+   color: rgb(0, 0, 0);
    font-family: monospace;
-   box-shadow: 14px 14px 23px gray;
+   box-shadow: 14px 14px 100px gray;
+}
+
+#clickMe-style{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #clickMe{
-    margin-left: 600px;
+    content: "";
     position: absolute;
     top: 0px;
     transition: all 2s;
